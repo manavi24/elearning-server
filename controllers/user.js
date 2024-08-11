@@ -1,7 +1,7 @@
 import {User} from "../models/user.js";
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import sendMail from "../middleware/sendmail.js";
+import sendMail from "../middleware/sendMail.js";
 import TryCatch from "../middleware/TryCatch.js";
 
 export const register = async(req, res)=>{
